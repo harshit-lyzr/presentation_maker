@@ -6,8 +6,8 @@ from PIL import Image
 from lyzr_automata.tasks.task_literals import InputType, OutputType
 
 st.set_page_config(
-    page_title="HTML To ReactJS Convertor",
-    layout="centered",  # or "wide"
+    page_title="Presentation Maker",
+    layout="wide",  # or "wide"
     initial_sidebar_state="auto",
     page_icon="lyzr-logo-cut.png",
 )
@@ -29,10 +29,10 @@ image = Image.open("lyzr-logo.png")
 st.image(image, width=150)
 
 # App title and introduction
-st.title("HTML To ReactJS Convertor💻")
-st.markdown("## Welcome to the HTML To ReactJS Convertor!")
+st.title("Presentation Maker💻")
+st.markdown("## Welcome to the HTML To Presentation Maker!")
 st.markdown(
-    "This App Harnesses power of Lyzr Automata to Convert HTML code to ReactJS. You Need to input Your HTML,CSS and JS code and it will convert it into ReactJS.")
+    "This App Harnesses power of Lyzr Automata to automating slide decks. You Need to input Your topic and it will craft presentation code for you.")
 
 
 if api:
